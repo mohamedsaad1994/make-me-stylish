@@ -1,4 +1,4 @@
-function myFunc(elementsName) {
+function styleFunc(elementsName) {
     var objectStyle = { color: "red", background: "blue" };
     var myElements = document.getElementsByTagName(elementsName);
     for (var i = 0; i < myElements.length; i++) {
